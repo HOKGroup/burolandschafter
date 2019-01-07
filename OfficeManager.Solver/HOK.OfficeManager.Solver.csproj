@@ -56,9 +56,6 @@
     <Reference Include="Grasshopper, Version=1.0.0.20, Culture=neutral, PublicKeyToken=dda4f5ec2cd80803, processorArchitecture=MSIL">
       <HintPath>..\packages\Grasshopper.0.9.76\lib\net35\Grasshopper.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="RhinoCommon, Version=5.1.30000.16, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
       <HintPath>..\packages\RhinoCommon.5.12.50810.13095\lib\net35\RhinoCommon.dll</HintPath>
     </Reference>
@@ -84,8 +81,6 @@
     <Compile Include="Components\Package\PackageIteration.cs" />
     <Compile Include="Components\Solver.cs" />
     <Compile Include="Components\Package\PackageTestFit.cs" />
-    <Compile Include="Components\Iterate\WriteAdvice.cs" />
-    <Compile Include="Components\Iterate\WriteSolution.cs" />
     <Compile Include="Logic\Drawing.cs" />
     <Compile Include="Logic\Formats.cs" />
     <Compile Include="Logic\Population\Collision.cs" />
@@ -101,10 +96,6 @@
     <Compile Include="Components\Package\PackageProgramItem.cs" />
     <Compile Include="Logic\Transformations\Breps.cs" />
     <Compile Include="Logic\Transformations\Curves.cs" />
-    <Compile Include="Logic\Translations\Advice.cs" />
-    <Compile Include="Logic\Translations\Curves.cs" />
-    <Compile Include="Logic\Translations\Data.cs" />
-    <Compile Include="Logic\Translations\Points.cs" />
     <Compile Include="Logic\Update\Iteration.cs" />
     <Compile Include="Logic\Update\Program.cs" />
     <Compile Include="Logic\Update\Room.cs" />
