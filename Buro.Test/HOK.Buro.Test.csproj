@@ -132,7 +132,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OfficeManager.Solver\HOK.Buro.Solver.csproj">
+    <ProjectReference Include="..\Buro.Solver\HOK.Buro.Solver.csproj">
       <Project>{1d90be9c-7136-4245-b3a4-6e820a0ec721}</Project>
       <Name>HOK.Buro.Solver</Name>
     </ProjectReference>

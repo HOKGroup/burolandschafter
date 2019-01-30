@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		system.jpg = system.jpg
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOK.Buro.Solver", "OfficeManager.Solver\HOK.Buro.Solver.csproj", "{1D90BE9C-7136-4245-B3A4-6E820A0EC721}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOK.Buro.Solver", "Buro.Solver\HOK.Buro.Solver.csproj", "{1D90BE9C-7136-4245-B3A4-6E820A0EC721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOK.Buro.Test", "OfficeManager.Test\HOK.Buro.Test.csproj", "{3B30C406-A74B-4A36-8AAB-21E2CB930794}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HOK.Buro.Test", "Buro.Test\HOK.Buro.Test.csproj", "{3B30C406-A74B-4A36-8AAB-21E2CB930794}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
