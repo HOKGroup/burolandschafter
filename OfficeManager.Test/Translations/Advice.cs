@@ -2,18 +2,18 @@
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Factory;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Factory;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-using HOK.OfficeManager.Logic;
-using HOK.OfficeManager.Logic.Translations;
+using HOK.Buro.Logic;
+using HOK.Buro.Logic.Translations;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace HOK.OfficeManager.Tests.Translations.Advice
+namespace HOK.Buro.Tests.Translations.Advice
 {
     [TestClass]
     public class ParseAdviceTests
@@ -28,7 +28,7 @@ namespace HOK.OfficeManager.Tests.Translations.Advice
                 new List<double>()
                 );
 
-            var result = HOK.OfficeManager.Logic.Translations.Advice.ParseAdvice(testAdvice);
+            var result = HOK.Buro.Logic.Translations.Advice.ParseAdvice(testAdvice);
 
             Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
 
@@ -45,7 +45,7 @@ namespace HOK.OfficeManager.Tests.Translations.Advice
                 new List<double>()
             );
 
-            var result = HOK.OfficeManager.Logic.Translations.Advice.ParseAdvice(testAdvice);
+            var result = HOK.Buro.Logic.Translations.Advice.ParseAdvice(testAdvice);
 
             Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string,string>>(result);
 
@@ -62,7 +62,7 @@ namespace HOK.OfficeManager.Tests.Translations.Advice
                 new List<double>()
             );
 
-            var result = HOK.OfficeManager.Logic.Translations.Advice.ParseAdvice(testAdvice);
+            var result = HOK.Buro.Logic.Translations.Advice.ParseAdvice(testAdvice);
 
             Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
 
@@ -79,7 +79,7 @@ namespace HOK.OfficeManager.Tests.Translations.Advice
                 new List<double>()
             );
 
-            var result = HOK.OfficeManager.Logic.Translations.Advice.ParseAdvice(testAdvice);
+            var result = HOK.Buro.Logic.Translations.Advice.ParseAdvice(testAdvice);
 
             Dictionary<string, string> data = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
 

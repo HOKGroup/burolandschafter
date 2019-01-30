@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using HOK.OfficeManager.Logic.Transformations;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Logic.Transformations;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-namespace HOK.OfficeManager.Logic
+namespace HOK.Buro.Logic
 {
     public class Draw
     {

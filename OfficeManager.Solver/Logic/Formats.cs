@@ -4,14 +4,14 @@ using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Logic;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 using Grasshopper.Kernel.Types;
 using Rhino.DocObjects.Tables;
 
-namespace HOK.OfficeManager.Formats
+namespace HOK.Buro.Formats
 {
     /// <summary>
     /// Top-level collection of user input data.

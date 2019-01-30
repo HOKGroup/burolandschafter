@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 using Rhino;
 using Rhino.Geometry;
 
-using HOK.OfficeManager.Logic;
-using HOK.OfficeManager.Factory;
-using HOK.OfficeManager.Logic.Transformations;
+using HOK.Buro.Logic;
+using HOK.Buro.Factory;
+using HOK.Buro.Logic.Transformations;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 //using Assert = NUnit.Framework.Assert;
 
-namespace HOK.OfficeManager.Tests.Relationships.Select
+namespace HOK.Buro.Tests.Relationships.Select
 
 {
     [TestClass]

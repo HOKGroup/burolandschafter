@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 using Rhino.Geometry;
 
-namespace HOK.OfficeManager.Logic.Update
+namespace HOK.Buro.Logic.Update
 {
     public class Iteration
     {

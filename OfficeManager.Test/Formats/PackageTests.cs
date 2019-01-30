@@ -2,16 +2,16 @@
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Factory;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Factory;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Logic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
-namespace HOK.OfficeManager.Tests.Formats
+namespace HOK.Buro.Tests.Formats
 {
     [TestClass]
     public class ProgramPackageTests

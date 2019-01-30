@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Logic.Relationships;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Logic.Relationships;
+using HOK.Buro.Formats;
 using Rhino.Geometry;
 
-namespace HOK.OfficeManager.Logic.Population.Stage
+namespace HOK.Buro.Logic.Population.Stage
 {
     public class Program
     {

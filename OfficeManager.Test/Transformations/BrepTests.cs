@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Rhino.Geometry;
-using HOK.OfficeManager.Factory;
+using HOK.Buro.Factory;
 
-namespace HOK.OfficeManager.Tests.Transformations.Breps
+namespace HOK.Buro.Tests.Transformations.Breps
 {
     [TestClass]
     public class SplitTwoBrepsTests

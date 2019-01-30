@@ -10,7 +10,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 //using Assert = NUnit.Framework.Assert;
 //using TestContext = NUnit.Framework.TestContext;
 
-namespace HOK.OfficeManager.Tests
+namespace HOK.Buro.Tests
 {
     [TestClass]
     public static class TestInit

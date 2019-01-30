@@ -4,12 +4,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Logic.Relationships;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Logic.Relationships;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 
-namespace HOK.OfficeManager.Logic.Population
+namespace HOK.Buro.Logic.Population
 {
     public class Populate
     {

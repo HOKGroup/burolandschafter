@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Rhino.Geometry;
-using HOK.OfficeManager.Factory;
-using HOK.OfficeManager.Logic.Transformations;
+using HOK.Buro.Factory;
+using HOK.Buro.Logic.Transformations;
 using System.Windows.Forms;
 
-namespace HOK.OfficeManager.Tests.Transformations.Curves
+namespace HOK.Buro.Tests.Transformations.Curves
 {
     [TestClass]
     public class OffsetClosedTests

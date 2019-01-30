@@ -4,17 +4,17 @@ using System.Drawing.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-using HOK.OfficeManager.Logic;
-using HOK.OfficeManager.Properties;
+using HOK.Buro.Logic;
+using HOK.Buro.Properties;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 
-namespace HOK.OfficeManager.Components.Debug
+namespace HOK.Buro.Components.Debug
 {
     public class ReadRoomPackage : GH_Component
     {

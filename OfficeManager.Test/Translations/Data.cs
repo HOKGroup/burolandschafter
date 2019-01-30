@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HOK.OfficeManager.Tests.Translations.Data
+namespace HOK.Buro.Tests.Translations.Data
 {
     [TestClass]
     public class ListToStringTests
@@ -15,7 +15,7 @@ namespace HOK.OfficeManager.Tests.Translations.Data
         {
             var testList = new List<int>(new[] {1, 2, 3});
 
-            var result = HOK.OfficeManager.Logic.Translations.Data.ListToString(ref testList, null);
+            var result = HOK.Buro.Logic.Translations.Data.ListToString(ref testList, null);
 
             Assert.AreEqual("1 2 3", result);
         }

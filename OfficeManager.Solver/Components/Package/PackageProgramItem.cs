@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Logic;
 
 
-namespace HOK.OfficeManager.Components
+namespace HOK.Buro.Components
 {
     public class PackageProgramItem : GH_Component
     {

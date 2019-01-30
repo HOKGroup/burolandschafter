@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HOK.OfficeManager.Tests.Translations.Curves
+namespace HOK.Buro.Tests.Translations.Curves
 {
     [TestClass]
     public class ToSvgTests

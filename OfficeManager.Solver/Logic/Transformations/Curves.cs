@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Logic.Relationships;
+using HOK.Buro.Logic.Relationships;
 using Rhino.Geometry;
 
-namespace HOK.OfficeManager.Logic.Transformations
+namespace HOK.Buro.Logic.Transformations
 {
     public static class Curves
     {

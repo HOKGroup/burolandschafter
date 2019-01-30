@@ -8,14 +8,14 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 //using System.ValueTuple;
 
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-namespace HOK.OfficeManager.Logic
+namespace HOK.Buro.Logic
 {
     public static class Utils
     {

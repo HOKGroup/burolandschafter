@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 using Rhino.Geometry;
 
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Logic;
 using Grasshopper.Kernel;
 
-namespace HOK.OfficeManager.Factory
+namespace HOK.Buro.Factory
 {
     //All geometry generated is appended to any output lists in the order that they're mentioned in the method name.
     //SquareInCircle[0] is the square, SquareInCircle[1] is the Circle.

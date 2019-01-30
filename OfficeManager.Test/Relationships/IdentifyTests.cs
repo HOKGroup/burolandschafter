@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Rhino.Geometry;
-using HOK.OfficeManager.Factory;
-using HOK.OfficeManager.Formats;
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Factory;
+using HOK.Buro.Formats;
+using HOK.Buro.Logic;
 
-namespace HOK.OfficeManager.Tests.Relationships.Identify
+namespace HOK.Buro.Tests.Relationships.Identify
 {
     [TestClass]
     public class FloorPlateRegionsTests

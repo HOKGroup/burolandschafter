@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using HOK.OfficeManager.Logic.Relationships;
-using HOK.OfficeManager.Logic.Transformations;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Logic.Relationships;
+using HOK.Buro.Logic.Transformations;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 using Rhino.Geometry.Intersect;
 
-namespace HOK.OfficeManager.Logic.Update
+namespace HOK.Buro.Logic.Update
 {
     public class Room
     {

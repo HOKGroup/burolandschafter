@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Logic;
 
-namespace HOK.OfficeManager.Components
+namespace HOK.Buro.Components
 {
     public class PackageFloorPlan : GH_Component
     {

@@ -5,13 +5,13 @@ using System.Linq;
 using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Formats;
+using HOK.Buro.Logic;
 using Rhino;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 
-namespace HOK.OfficeManager.Components
+namespace HOK.Buro.Components
 {
     public class PackageAdvice : GH_Component
     {

@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-using HOK.OfficeManager.Logic;
-using HOK.OfficeManager.Logic.Relationships;
-using HOK.OfficeManager.Logic.Population.Stage;
-using HOK.OfficeManager.Properties;
+using HOK.Buro.Logic;
+using HOK.Buro.Logic.Relationships;
+using HOK.Buro.Logic.Population.Stage;
+using HOK.Buro.Properties;
 
-namespace HOK.OfficeManager.Components
+namespace HOK.Buro.Components
 {
     public class Solver : GH_Component
     {

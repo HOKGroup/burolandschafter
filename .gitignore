@@ -73,9 +73,9 @@ obj/*
 .vscode/
 .vscode/*
 
-HOK.OfficeManager.WebApp/config.js
-HOK.OfficeManager.WebApp/node-modules/
-HOK.OfficeManager.WebApp/config.txt
+HOK.Buro.WebApp/config.js
+HOK.Buro.WebApp/node-modules/
+HOK.Buro.WebApp/config.txt
 
 *.3dm.rhl
 *.3dmbak

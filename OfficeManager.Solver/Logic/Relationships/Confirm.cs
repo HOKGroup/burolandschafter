@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Rhino.Geometry;
 using Rhino.Geometry.Intersect;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 
-namespace HOK.OfficeManager.Logic.Relationships
+namespace HOK.Buro.Logic.Relationships
 {
     public class Confirm
     {

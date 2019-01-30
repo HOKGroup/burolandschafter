@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Factory;
+using HOK.Buro.Factory;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
-using HOK.OfficeManager.Logic;
+using HOK.Buro.Logic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
-namespace HOK.OfficeManager.Tests.Utils
+namespace HOK.Buro.Tests.Utils
 {
     [TestClass]
     public class GetSlopeTests

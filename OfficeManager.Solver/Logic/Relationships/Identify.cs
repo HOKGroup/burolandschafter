@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Logic.Transformations;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Logic.Transformations;
+using HOK.Buro.Formats;
 using Rhino.Geometry;
 
-namespace HOK.OfficeManager.Logic.Relationships
+namespace HOK.Buro.Logic.Relationships
 {
     public static class Identify
     {

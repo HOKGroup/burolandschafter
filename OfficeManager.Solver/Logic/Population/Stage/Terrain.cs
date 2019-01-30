@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HOK.OfficeManager.Formats;
+using HOK.Buro.Formats;
 
-namespace HOK.OfficeManager.Logic.Population.Stage
+namespace HOK.Buro.Logic.Population.Stage
 {
     public class Terrain
     {
