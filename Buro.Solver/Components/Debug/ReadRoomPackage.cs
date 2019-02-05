@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HOK.Buro.Formats;
+using HOK.Buro.Properties;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
 
 using HOK.Buro.Logic;
-using HOK.Buro.Properties;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 
@@ -89,7 +89,7 @@ namespace HOK.Buro.Components.Debug
         {
             get
             {
-                return null;
+                return Resources.buro_read_room;
             }
         }
 

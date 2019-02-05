@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HOK.Buro.Formats;
+using HOK.Buro.Properties;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
@@ -14,7 +15,7 @@ namespace HOK.Buro.Components.Debug
 {
     public class ReadProgramManifest : GH_Component
     {
-        public ReadProgramManifest() : base("Read Program Manifest", "pm", "Outputs program manifest information.", "Office Manager", "Debug")
+        public ReadProgramManifest() : base("Read Program Manifest", "pm", "Outputs program manifest information.", Resources.TabName, Resources.Category_Debug)
         {
 
         }
@@ -74,8 +75,7 @@ namespace HOK.Buro.Components.Debug
         {
             get
             {
-                //return Resources.Icon
-                return null;
+                return Properties.Resources.buro_read_program_manifest;
             }
         }
 

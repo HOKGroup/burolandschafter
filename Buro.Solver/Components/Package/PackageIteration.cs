@@ -73,7 +73,7 @@ namespace HOK.Buro.Components
         {
             get
             {
-                return null;
+                return Properties.Resources.buro_pkg_iteration;
             }
         }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HOK.Buro.Formats;
+using HOK.Buro.Properties;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
@@ -15,7 +16,7 @@ namespace HOK.Buro.Components
 {
     public class PackageTestFit : GH_Component
     {
-        public PackageTestFit() : base("Package Test Fit", "Test Fit", "Collect packages and format into a test fit instance.", "Office Manager", "Packages")
+        public PackageTestFit() : base("Package Test Fit", "Test Fit", "Collect packages and format into a test fit instance.", Resources.TabName, "Packages")
         {
 
         }
@@ -56,8 +57,7 @@ namespace HOK.Buro.Components
         {
             get
             {
-                //return Resources.Icon
-                return null;
+                return Resources.buro_pkg_testfit;
             }
         }
 

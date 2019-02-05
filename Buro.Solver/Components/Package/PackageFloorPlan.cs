@@ -58,8 +58,7 @@ namespace HOK.Buro.Components
         {
             get
             {
-                //return Resources.Icon
-                return null;
+                return Properties.Resources.buro_pkg_floor;
             }
         }
 

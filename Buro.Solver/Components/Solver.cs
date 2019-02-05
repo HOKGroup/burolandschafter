@@ -95,7 +95,7 @@ namespace HOK.Buro.Components
         {
             get
             {
-                return null;
+                return Resources.buro_solve;
             }
         }
 

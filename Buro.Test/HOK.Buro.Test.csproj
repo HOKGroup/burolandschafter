@@ -122,9 +122,6 @@
     <Compile Include="Transformations\BrepTests.cs" />
     <Compile Include="TestInit.cs" />
     <Compile Include="Transformations\CurvesTests.cs" />
-    <Compile Include="Translations\Advice.cs" />
-    <Compile Include="Translations\Curves.cs" />
-    <Compile Include="Translations\Data.cs" />
     <Compile Include="Utils\UtilsTests.cs" />
   </ItemGroup>
   <ItemGroup>

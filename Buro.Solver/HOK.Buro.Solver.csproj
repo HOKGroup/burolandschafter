@@ -118,7 +118,42 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="img\buro_pkg_advice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_pkg_floor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_pkg_iteration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_pkg_program.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_pkg_testfit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_read_advice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_read_program.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_read_program-manifest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_read_room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_read_zone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_read_zone-manifest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buro_solve.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)Burolandschafter.gha"

@@ -6,6 +6,7 @@ using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 using HOK.Buro.Formats;
+using HOK.Buro.Properties;
 using HOK.Buro.Logic;
 using Rhino;
 using Grasshopper.Kernel;
@@ -15,7 +16,7 @@ namespace HOK.Buro.Components
 {
     public class PackageAdvice : GH_Component
     {
-        public PackageAdvice() : base("Package Advice", "Advice", "Translate Rhino data into a advice for Office Manager.", "Office Manager", "Packages")
+        public PackageAdvice() : base("Package Advice", "Advice", "Translate Rhino data into a advice for Office Manager.", Resources.TabName, "Packages")
         {
 
         }
@@ -59,7 +60,7 @@ namespace HOK.Buro.Components
         {
             get
             {
-                return null;
+                return Resources.buro_pkg_advice;
             }
         }
 

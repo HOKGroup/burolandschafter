@@ -7,6 +7,7 @@ using HOK.Buro.Formats;
 using Rhino;
 using Rhino.Geometry;
 using Grasshopper.Kernel;
+using HOK.Buro.Properties;
 
 using HOK.Buro.Logic;
 
@@ -15,7 +16,7 @@ namespace HOK.Buro.Components
 {
     public class PackageProgramItem : GH_Component
     {
-        public PackageProgramItem() : base("Package Program", "Program", "Translate Rhino data into a program requirement for Office Manager.", "Office Manager", "Packages")
+        public PackageProgramItem() : base("Package Program", "Program", "Translate Rhino data into a program requirement for Office Manager.", Resources.TabName, "Packages")
         {
 
         }
@@ -60,8 +61,7 @@ namespace HOK.Buro.Components
         {
             get
             {
-                //return Resources.Icon
-                return null;
+                return Properties.Resources.buro_pkg_program;
             }
         }
 

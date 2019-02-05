@@ -61,6 +61,126 @@ namespace HOK.Buro.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_pkg_advice {
+            get {
+                object obj = ResourceManager.GetObject("buro_pkg_advice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_pkg_floor {
+            get {
+                object obj = ResourceManager.GetObject("buro_pkg_floor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_pkg_iteration {
+            get {
+                object obj = ResourceManager.GetObject("buro_pkg_iteration", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_pkg_program {
+            get {
+                object obj = ResourceManager.GetObject("buro_pkg_program", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_pkg_testfit {
+            get {
+                object obj = ResourceManager.GetObject("buro_pkg_testfit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_read_advice {
+            get {
+                object obj = ResourceManager.GetObject("buro_read_advice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_read_program {
+            get {
+                object obj = ResourceManager.GetObject("buro_read_program", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_read_program_manifest {
+            get {
+                object obj = ResourceManager.GetObject("buro_read_program_manifest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_read_room {
+            get {
+                object obj = ResourceManager.GetObject("buro_read_room", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_read_zone {
+            get {
+                object obj = ResourceManager.GetObject("buro_read_zone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_read_zone_manifest {
+            get {
+                object obj = ResourceManager.GetObject("buro_read_zone_manifest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buro_solve {
+            get {
+                object obj = ResourceManager.GetObject("buro_solve", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Debug.
         /// </summary>
         internal static string Category_Debug {
@@ -79,7 +199,7 @@ namespace HOK.Buro.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Solve.
+        ///   Looks up a localized string similar to Buro.
         /// </summary>
         internal static string Category_Main {
             get {
@@ -214,7 +334,7 @@ namespace HOK.Buro.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Office Manager.
+        ///   Looks up a localized string similar to Buro.
         /// </summary>
         internal static string TabName {
             get {

@@ -61,7 +61,7 @@ namespace HOK.Buro.Components.Debug
         {
             get
             {
-                return null;
+                return Properties.Resources.buro_read_advice;
             }
         }
 
